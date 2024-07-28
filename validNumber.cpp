@@ -52,9 +52,8 @@ public:
                     return false;
                 }
                 eS = true;
-                countPlusMinus = 0; // reset plus/minus count after 'e'
+                countPlusMinus = 0; 
             }
-            // invalid character
             else
             {
                 return false;
